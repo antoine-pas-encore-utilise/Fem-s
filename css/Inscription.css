@@ -1,0 +1,121 @@
+
+/* Disposition des blocks */
+
+#all
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5px;
+	padding-top: 20px;
+}
+
+#rappel
+{
+	border: 1px solid #245B54;
+	box-shadow: 4px 4px 10px #245B54;
+	width: 30%;
+	margin: 5px 5px 5px 5px;
+	background-color: #245B54;
+	padding: 10px;
+}
+
+#introd
+{
+	text-align: left;
+	margin: 10px 10px 20px 10px;
+}
+
+/* Formulaire */
+
+#global
+{
+	width: 90%;
+	margin: auto;
+	background-color: #CBCDEE;
+}
+
+#joueurs
+{
+	width: 90%;
+	margin: auto;
+}
+
+.block
+{
+	width: 95%;
+	margin: auto;
+}
+
+.joueur
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#team
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-start;
+}
+
+#equ
+{
+	padding-right: 10px;
+}
+#bout
+{
+	width: 90%;
+	margin: auto;
+}
+
+#last
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#bt
+{
+	text-align: center;
+}
+
+.tit
+{
+	text-align: center;
+	font-size: 20px;
+}
+
+#top
+{
+	display: flex;
+	flex-direction: row;
+}
+#hup
+{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+#equipe
+{
+	margin: 25px 5px 0px 60px;
+}
+
+#form
+{
+	font-size: 30px;
+}
+
+#soul
+{
+	text-decoration: underline;
+}
+
+ul
+{
+	list-style-position: inside;
+}

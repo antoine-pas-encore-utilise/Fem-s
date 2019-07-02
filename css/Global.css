@@ -1,0 +1,119 @@
+@font-face
+{
+	font-family: 'sinkin';
+	src: url('Polices/sinkin/SinkinSans-400Regular.otf');
+	font-family: 'rubik';
+	src: url('Polices/rubik/Rubik-Medium.otf');
+}
+
+body
+{
+	background-image: url("Images/fond2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: justify;
+	font-family: 'sinkin',arial, serif;
+}
+
+nav
+{
+	text-align: center;
+	display: block;
+	margin: auto;
+	box-shadow: 6px 6px 7px black;
+	height: 60px;
+}
+
+.menu
+{
+	margin: auto;
+	font-size: 25px;
+	font-family: 'sinkin', arial, serif;
+	text-decoration: none;
+}
+
+#bandeau
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+a 
+{
+	color: black;
+}
+
+#menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover,#menu5:hover,#menu6:hover
+{
+	font-weight: bold; 
+}
+
+.band
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#title
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Permanent Marker,Cinzel,Great Vibes,'rubik', arial, serif;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#cook
+{
+	text-decoration: none;
+	border: 1px solid maroon;
+	background-color: maroon;
+	color: white;
+	font-size: 20px;
+}
+
+h1
+{
+	margin-bottom: 0px;
+	margin-top: 5px;
+	font-size: 100px;
+}
+
+h2
+{
+	box-shadow: 6px 6px 7px black;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #343A8F;
+	border-radius: 20px;
+	font-family: 'sinkin','rubik', arial, serif;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer
+{
+	box-shadow: 6px 6px 7px black;
+	background-color: white;
+	padding: 5px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 1em;
+  padding-bottom: 10em;
+}
+
+body {position: relative;}
+footer {position: absolute; bottom: 5px;}
+
+body {position: relative;}
+footer {position: absolute; bottom: 5px; left: 5px; right: 5px}
+
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
