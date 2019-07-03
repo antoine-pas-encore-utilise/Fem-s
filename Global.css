@@ -40,7 +40,7 @@ nav
 
 a 
 {
-	color: black;
+	color: black!important;
 }
 
 #menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover,#menu5:hover,#menu6:hover
@@ -76,7 +76,7 @@ h1
 {
 	margin-bottom: 0px;
 	margin-top: 5px;
-	font-size: 100px;
+	font-size: 100px!important;
 }
 
 h2

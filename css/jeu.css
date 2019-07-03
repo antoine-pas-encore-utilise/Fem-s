@@ -1,0 +1,90 @@
+h3{
+    text-align: center;
+    margin-top:10px!important;
+    margin-bottom:10px!important;
+}
+
+h4{
+    text-align:center;
+}
+
+
+h2{
+    margin-top:20px!important;
+}
+
+.pouleA, .pouleB, .pouleC, .pouleD, .pouleE, .pouleE{
+    margin-top:20px;
+    text-align:center;
+}
+
+section{
+    margin-bottom:20px!important;
+    margin-bottom:20px!important;
+}
+.equipe{
+    border:1px solid;
+    width:120px;
+    height:50px;
+    padding:15px;
+    text-align: center;
+    background-color:white;
+}
+equipe:hover{
+    cursor:grab!important;
+}
+#poules{
+    justify-content:space-evenly;
+}
+.bouton{
+    width:80px;
+    text-align:center;
+    margin:auto;
+    margin-top:50px;
+}
+#userName, #label{
+    text-align:center;
+    margin-top:50px;
+}
+.button:hover{
+    cursor:pointer;
+}
+ul{
+    list-style-type:none;
+}
+.match{
+    margin-bottom:35px;
+    margin-right:20px;
+}
+.eq{
+    margin-right:10px;
+    border:solid 1px;
+    padding:3px;
+    height:50px;
+
+}
+.huitiemes{
+    display:flex;
+    justify-content:space-between;
+}
+#sortable7{
+    margin:auto;
+}
+
+.equipe3{
+    border:1px solid;
+    height:50px;
+    width:200px;;
+    padding:15px;
+    text-align: center;
+    background-color:white;
+}
+.classement{
+    text-align:center;
+    background-color:yellow;
+}
+.clast{
+    border-width:0px;
+    border:none;
+    background-color:yellow;
+}
