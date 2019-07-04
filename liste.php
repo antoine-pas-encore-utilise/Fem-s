@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Fem's | Paris</title>
+        <title>Fem's paris</title>
         <link rel="stylesheet" type="text/css" href="Global.css">
         <link href="https://fonts.googleapis.com/css?family=Cinzel|Great+Vibes|Just+Another+Hand|Permanent+Marker|Shadows+Into+Light|Tangerine&display=swap" rel="stylesheet">
     </head>
@@ -20,7 +20,7 @@
 	 			<a href="fems.html" class="menu" id="menu1"> Accueil</a>
 	 			<a href="inscription.html" class="menu" id="menu2"> Inscription</a>
 	 			<a href="description.html" class="menu" id="menu3"> Le Fem's pour les nuls </a>
-	 			<a href="jeu.html" class="menu" id="menu4"> Jeu concours </a>
+	 			<a href="jeu.php" class="menu" id="menu4"> Jeu concours </a>
 	 			<a href="orga.html" class="menu" id="menu5"> Déroulement du tournoi </a>
 	 			<a href="diver.html" class="menu" id="menu6"> En savoir plus</a>
  			</nav> 
