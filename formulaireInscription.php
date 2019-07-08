@@ -84,7 +84,6 @@
         ?>
     
         <div id="fin">
-            <img style="margin-left:400px;" src="momo.jpg"/>
             <h1 style="text-align:center">Merci Capitaine, ton inscription a été prise en compte.</h1>
         </div>
     </body> 
