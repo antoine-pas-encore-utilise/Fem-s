@@ -19,7 +19,7 @@
  			</div>
  			<nav class="band">
 	 			<a href="fems.html" class="menu" id="menu1"> Accueil</a>
-	 			<a href="inscription.html" class="menu" id="menu2"> Inscription</a>
+	 			<a href="inscription.php" class="menu" id="menu2"> Inscription</a>
 	 			<a href="description.html" class="menu" id="menu3"> Le Fem's pour les nuls </a>
 	 			<a href="jeu.php" class="menu" id="menu4"> Jeu concours </a>
 	 			<a href="orga.html" class="menu" id="menu5"> Déroulement du tournoi </a>
@@ -78,15 +78,15 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ1" id="pr" required="">
+					 					<input type="text" name="prenomJ1" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ1" id="nm" required="">
+					 					<input type="text" name="nomJ1" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ1" id="srn" required="">
+					 					<input type="text" name="surnomJ1" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
@@ -107,6 +107,7 @@
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
 					 					<select name="tailleJ1" id="taille">
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -120,19 +121,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ2" id="pr" required="">
+					 					<input type="text" name="prenomJ2" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ2" id="nm" required="">
+					 					<input type="text" name="nomJ2" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ2" id="srn" required="">
+					 					<input type="text" name="surnomJ2" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ2" id="num" required="">
+					 					<select name="numJ2" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -148,7 +149,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ2" id="taille">
+					 					<select name="tailleJ2" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -162,19 +164,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ3" id="pr" required="">
+					 					<input type="text" name="prenomJ3" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ3" id="nm" required="">
+					 					<input type="text" name="nomJ3" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ3" id="srn" required="">
+					 					<input type="text" name="surnomJ3" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ3" id="num" required="">
+					 					<select name="numJ3" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -190,7 +192,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ3" id="taille">
+					 					<select name="tailleJ3" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -204,19 +207,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ4" id="pr" required="">
+					 					<input type="text" name="prenomJ4" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ4" id="nm" required="">
+					 					<input type="text" name="nomJ4" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ4" id="srn" required="">
+					 					<input type="text" name="surnomJ4" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ4" id="num" required="">
+					 					<select name="numJ4" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -232,7 +235,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ4" id="taille">
+					 					<select name="tailleJ4" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -246,19 +250,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ5" id="pr" required="">
+					 					<input type="text" name="prenomJ5" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ5" id="nm" required="">
+					 					<input type="text" name="nomJ5" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ5" id="srn" required="">
+					 					<input type="text" name="surnomJ5" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ5" id="num" required="">
+					 					<select name="numJ5" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -274,7 +278,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ5" id="taille">
+					 					<select name="tailleJ5" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -288,19 +293,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ6" id="pr" required="">
+					 					<input type="text" name="prenomJ6" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ6" id="nm" required="">
+					 					<input type="text" name="nomJ6" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ6" id="srn" required="">
+					 					<input type="text" name="surnomJ6" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ6" id="num" required="">
+					 					<select name="numJ6" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -316,7 +321,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ6" id="taille">
+					 					<select name="tailleJ6" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -330,19 +336,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ7" id="pr" required="">
+					 					<input type="text" name="prenomJ7" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ7" id="nm" required="">
+					 					<input type="text" name="nomJ7" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ7" id="srn" required="">
+					 					<input type="text" name="surnomJ7" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ7" id="num" required="">
+					 					<select name="numJ7" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -358,7 +364,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ7" id="taille">
+					 					<select name="tailleJ7" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -372,19 +379,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ8" id="pr" required="">
+					 					<input type="text" name="prenomJ8" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ8" id="nm" required="">
+					 					<input type="text" name="nomJ8" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ8" id="srn" required="">
+					 					<input type="text" name="surnomJ8" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ8" id="num" required="">
+					 					<select name="numJ8" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -400,7 +407,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ8" id="taille">
+					 					<select name="tailleJ8" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -414,19 +422,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ9" id="pr" required="">
+					 					<input type="text" name="prenomJ9" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ9" id="nm" required="">
+					 					<input type="text" name="nomJ9" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ9" id="srn" required="">
+					 					<input type="text" name="surnomJ9" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ9" id="num" required="">
+					 					<select name="numJ9" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -442,7 +450,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ9" id="taille">
+					 					<select name="tailleJ9" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
@@ -456,19 +465,19 @@
 				 				<div class="joueur">
 					 				<p>
 					 					<label for="pr"> Prénom </label>		 					
-					 					<input type="text" name="prenomJ10" id="pr" required="">
+					 					<input type="text" name="prenomJ10" id="pr" required>
 					 				</p>
 					 				<p>
 					 					<label for="nm"> Nom </label>		 					
-					 					<input type="text" name="nomJ10" id="nm" required="">
+					 					<input type="text" name="nomJ10" id="nm" required>
 					 				</p>
 					 				<p>
 					 					<label for="srn"> Surnom maillot </label>
-					 					<input type="text" name="surnomJ10" id="srn" required="">
+					 					<input type="text" name="surnomJ10" id="srn" required>
 					 				</p>
 					 				<p>
 					 					<label for="num"> Numéro de maillot </label>
-					 					<select name="numJ10" id="num" required="">
+					 					<select name="numJ10" id="num" required>
 					 						<option value="0"> 0 </option>
 					 						<option value="1"> 1 </option>
 					 						<option value="2"> 2 </option>
@@ -484,7 +493,8 @@
 					 				</p>
 					 				<p>
 					 					<label for="taille"> Taille de maillot </label>
-					 					<select name="tailleJ10" id="taille">
+					 					<select name="tailleJ10" id="taille" required>
+                                            <option value=""> </option>
 					 						<option value="s"> S </option>
 					 						<option value="m"> M </option>
 					 						<option value="l"> L </option>
