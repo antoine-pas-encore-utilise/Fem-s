@@ -9,8 +9,9 @@ table
 	border-collapse: collapse;
 	margin:auto;
 	text-align: center;
-	/* background-color: #F2F3F9; */ 
-	background-color: #CBCDEE;
+	/* background-color: #CBCDEE; */
+	background-color: rgba(203,205,238,0.8);
+	border-radius: 20px;
 }
 caption
 {
@@ -41,4 +42,11 @@ th:nth-child(4) {
 th
 {
 	font-size: 20px;
+}
+
+#prems
+{
+	background-color: rgba(203,205,238,0.8);
+	padding: 8px;
+	border-radius: 20px;
 }
