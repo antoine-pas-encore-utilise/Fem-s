@@ -2,9 +2,9 @@
 {
 	display: flex;
 	justify-content: space-between;
-	background-color: #CBCDEE;
+	background-color: rgba(203,205,238,0.5);
 }
-
+/* #BCBFEE #CBCDEE */ 
 #cont1, #cont21, #cont31
 {
 	display: flex;
@@ -42,7 +42,13 @@ audio
 
 #par1, #par3
 {
-	background-color: rgba(203,205,238,0.8);
+	background-color: rgba(203,205,238,0.5);
 	padding: 8px;
 	border-radius: 20px;
+}
+
+img
+{
+	margin-left: 5px;
+	margin-right: 5px;
 }

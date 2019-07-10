@@ -10,8 +10,7 @@ table
 	margin:auto;
 	text-align: center;
 	/* background-color: #CBCDEE; */
-	background-color: rgba(203,205,238,0.8);
-	border-radius: 20px;
+	background-color: rgba(203,205,238,0.5);
 }
 caption
 {
@@ -46,7 +45,23 @@ th
 
 #prems
 {
-	background-color: rgba(203,205,238,0.8);
+	background-color: rgba(203,205,238,0.5);
 	padding: 8px;
 	border-radius: 20px;
+}
+
+#punch
+{
+	text-align: center;
+	color: #343A8F;
+	font-weight: bold;
+}
+
+#par
+{
+	text-align: center;
+}
+ul
+{
+	list-style-position: inside;
 }
