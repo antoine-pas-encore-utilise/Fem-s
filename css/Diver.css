@@ -37,10 +37,10 @@
 audio
 {
 	width: 150px;
-	height: 20px;
+	height: 15px;
 }
 
-#par1, #par3
+#par2, #par3
 {
 	background-color: rgba(203,205,238,0.5);
 	padding: 8px;
@@ -52,3 +52,27 @@ img
 	margin-left: 5px;
 	margin-right: 5px;
 }
+
+#par1
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#par11, #par12, #par13
+{
+	width: 33%;
+	text-align: center;
+	border: 1px #BCBFEE solid;
+	background-color: rgba(203,205,238,0.5);
+}
+
+#par111, #par121, #par131
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+}
+
