@@ -65,7 +65,17 @@ ul{
 }
 .huitiemes{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    margin-left:2px!important;
+    margin-right:2px!important;
+}
+.quart{
+    margin-left:10px!important;
+    margin-right:10px!important;
+}
+.demi{
+    margin-left:10px!important;
+    margin-right:10px!important;
 }
 #sortable7{
     margin:auto;
@@ -86,4 +96,9 @@ ul{
     border-width:0px;
     border:none;
     background-color:rgba(203,205,238,0.4);
+}
+form{
+    background-color: rgba(203,205,238,0.4);
+    padding:8px;
+    margin-top:20px;
 }

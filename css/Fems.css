@@ -1,7 +1,11 @@
 #intro
 {
+	margin:20px;
+	padding: 8px;
+	border-radius: 20px;
 	text-align: center;
 	font-size: 16px;
+	background-color:rgba(203,205,238,0.5);
 }
 
 ul
