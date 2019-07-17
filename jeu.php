@@ -19,23 +19,23 @@
  			<div id="bandeau">
 	 			<img src="Images/champions.jpg" width="100" height="70">
 	 			<div id="title"> 
-		 			<h1> Fem's 2019 </h1> 
-		 			<div> Vendredi 18 et samedi 19 octobre </div>
+		 			<h1 style="color:#000000!important"> Fem's 2019 </h1> 
+		 			<div style="color:#000000!important; font-size:16px!important"> Vendredi 18 et samedi 19 octobre </div>
 	 			</div>
 	 			<img src="Images/champions.jpg" width="100" height="70">
  			</div>
  			<nav class="band">
 	 			<a href="fems.html" class="menu" id="menu1"> Accueil</a>
-	 			<a href="inscription.html" class="menu" id="menu2"> Inscription</a>
+	 			<a href="inscription.php" class="menu" id="menu2"> Inscription</a>
 	 			<a href="description.html" class="menu" id="menu3"> Le Fem's pour les nuls </a>
-	 			<a href="jeu.html" class="menu" id="menu4"> Jeu concours </a>
+	 			<a href="jeu.php" class="menu" id="menu4"> Jeu concours </a>
 	 			<a href="orga.html" class="menu" id="menu5"> Déroulement du tournoi </a>
 	 			<a href="diver.html" class="menu" id="menu6"> En savoir plus</a>
  			</nav> 
  		</header>
 
  		<section >
- 			<h2> Qui veut gagner du planqueton ? </h2>
+ 			<h2 style="color:#000000!important; font-weight:bold;"> Qui veut gagner du planqueton ? </h2>
             <form method="post" action="liste.php" name="paris">
                 <div id="premierePhase">
                     <h3>
@@ -568,4 +568,4 @@
         }
         
     </script>
-</html>
+ </html>
