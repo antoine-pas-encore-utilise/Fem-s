@@ -44,142 +44,190 @@
                     <h3>Organise les poules en fonction du classement que tu veux parier, puis appuie sur VALIDER.</h3>
                     <div id ="poules" class="row" >
                         <div class="pouleA">
-                             <h3>
+                             <h3 class="titrepoule">
                                     Poule A
                             </h3>
-                            <ul id="sortable1" class="pouleA">
-                                <li id="1A" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 1A
-                                </li>
-                                <li id="2A" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 2A
-                                </li>
-                                <li id="3A" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 3A
-                                </li>
-                                <li id="4A" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 4A
-                                </li>
-                            </ul>
+                            <div class="row pouleA">
+                                 <ul>
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                </ul>
+                                <ul id="sortable1" style="margin-left:-39px!important">
+                                    <li id="1A" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 1A
+                                    </li>
+                                    <li id="2A" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 2A
+                                    </li>
+                                    <li id="3A" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 3A
+                                    </li>
+                                    <li id="4A" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 4A
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="pouleB">
-                            <h3>
+                            <h3 class="titrepoule">
                                     Poule B
                             </h3>
-                            <ul id="sortable2" class="pouleA">
-                               <li id="1B" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 1B
-                                </li>
-                                <li id="2B" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 2B
-                                </li>
-                                <li id="3B" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 3B
-                                </li>
-                                <li id="4B" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 4B
-                                </li>
-                            </ul>
+                            <div class="row pouleB">
+                                 <ul>
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                </ul>
+                                <ul id="sortable2" style="margin-left:-39px!important">
+                                   <li id="1B" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 1B
+                                    </li>
+                                    <li id="2B" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 2B
+                                    </li>
+                                    <li id="3B" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 3B
+                                    </li>
+                                    <li id="4B" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 4B
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="pouleC">
-                             <h3>
+                             <h3 class="titrepoule">
                                     Poule C
                             </h3>
-                            <ul id="sortable3" class="pouleA">
-                                <li id="1C" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 1C
-                                </li>
-                                <li id="2C" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 2C
-                                </li>
-                                <li id="3C" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 3C
-                                </li>
-                                <li id="4C" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 4C
-                                </li>
-                            </ul>
+                            <div class="row pouleA">
+                                <ul>
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                </ul>
+                                <ul id="sortable3" style="margin-left:-39px!important" >
+                                    <li id="1C" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 1C
+                                    </li>
+                                    <li id="2C" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 2C
+                                    </li>
+                                    <li id="3C" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 3C
+                                    </li>
+                                    <li id="4C" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 4C
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="pouleD">
-                            <h3>
+                            <h3 class="titrepoule">
                                     Poule D
                             </h3>
-                            <ul id="sortable4" class="pouleA">
-                               <li id="1D" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 1D
-                                </li>
-                                <li id="2D" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 2D
-                                </li>
-                                <li id="3D" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 3D
-                                </li>
-                                <li id="4D" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 4D
-                                </li>
-                            </ul>
+                            <div class="row pouleD">
+                                 <ul>
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                </ul>
+                                <ul id="sortable4" style="margin-left:-39px!important">
+                                   <li id="1D" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 1D
+                                    </li>
+                                    <li id="2D" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 2D
+                                    </li>
+                                    <li id="3D" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 3D
+                                    </li>
+                                    <li id="4D" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 4D
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="pouleC">
-                             <h3>
+                             <h3 class="titrepoule">
                                     Poule E
                             </h3>
-                            <ul id="sortable5" class="pouleA">
-                                <li id="1E" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 1E
-                                </li>
-                                <li id="2E" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 2E
-                                </li>
-                                <li id="3E" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 3E
-                                </li>
-                                <li id="4E" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 4E
-                                </li>
-                            </ul>
+                            <div class="row pouleC">
+                                 <ul>
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                </ul>
+                                <ul id="sortable5" style="margin-left:-39px!important">
+                                    <li id="1E" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 1E
+                                    </li>
+                                    <li id="2E" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 2E
+                                    </li>
+                                    <li id="3E" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 3E
+                                    </li>
+                                    <li id="4E" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 4E
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="pouleD">
-                            <h3>
+                            <h3 class="titrepoule">
                                     Poule F
                             </h3>
-                            <ul id="sortable6" class="pouleA">
-                               <li id="1F" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 1F
-                                </li>
-                                <li id="2F" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 2F
-                                </li>
-                                <li id="3F" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 3F
-                                </li>
-                                <li id="4F" class="equipe ui-state-default ">
-                                    <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
-                                    Equipe 4F
-                                </li>
-                            </ul>
+                            <div class="row pouleD">
+                                 <ul>
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                </ul>
+                                <ul id="sortable6" style="margin-left:-39px!important">
+                                   <li id="1F" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 1F
+                                    </li>
+                                    <li id="2F" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 2F
+                                    </li>
+                                    <li id="3F" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 3F
+                                    </li>
+                                    <li id="4F" class="equipe ui-state-default ">
+                                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+                                        Equipe 4F
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="row col justify-content-around">
@@ -207,7 +255,15 @@
                     </h3>
                     <div class="row">
                         <div class="col-sm"></div>
-                        <ul id="sortable7" class="col-2">
+                         <ul style="margin:auto">
+                                    <li class="organisation">1er</li>
+                                    <li class="organisation">2ème</li>
+                                    <li class="organisation">3ème</li>
+                                    <li class="organisation">4ème</li>
+                                    <li class="organisation">5ème</li>
+                                    <li class="organisation">6ème</li>
+                        </ul>
+                        <ul id="sortable7" class="col-2" style="margin-left:-12px!important">
                                    <li id="trezPouleA" class="equipe3 ui-state-default ">
                                         <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
 

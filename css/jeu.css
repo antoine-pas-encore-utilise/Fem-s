@@ -18,6 +18,10 @@ h2{
     text-align:center;
 }
 
+.titrepoule{
+    margin-left:45px;
+}
+
 section{
     margin-bottom:20px!important;
     margin-bottom:20px!important;
@@ -30,6 +34,16 @@ section{
     text-align: center;
     background-color:white;
 }
+.organisation{
+    border:1px solid;
+    width:50px;
+    height:50px;
+    padding-top:15px;
+    text-align:center;
+    background-color:white;
+}
+
+
 equipe:hover{
     cursor:grab!important;
 }
@@ -64,8 +78,7 @@ ul{
 
 }
 .huitiemes{
-    display:flex;
-    justify-content:space-evenly;
+
     margin-left:2px!important;
     margin-right:2px!important;
 }
