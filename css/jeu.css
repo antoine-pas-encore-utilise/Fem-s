@@ -30,7 +30,8 @@ section{
     border:1px solid;
     width:120px;
     height:50px;
-    padding:15px;
+    display:flex;
+    align-items:center;
     text-align: center;
     background-color:white;
 }
@@ -68,20 +69,71 @@ ul{
 }
 .match8{
     margin-bottom:35px;
-    margin-right:20px;
+    margin-right:10px;
     border: 1px solid;
-    width:150px;
+    width:180px;
     display:flex; 
     align-items:center;
     justify-content:space-evenly;
-    height:60px;
+    min-height:70px;
+    display:inline-flex;
+}
+.match4{
+    margin-bottom:35px;
+    margin-right:10px;
+    border: 1px solid;
+    width:220px;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    min-height:70px;
+    display:inline-flex;
+}
+.match2{
+    margin-bottom:35px;
+    margin-right:10px;
+    border:1px solid;
+    width:300px;
+    align-items:center;
+    justify-content: space-evenly;
+    min-height:70px;
+    display:inline-flex
+}
+.matchFin{
+    margin-bottom:35px;
+    margin-right:10px;
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height:70px;
+    border:1px solid;
+    width:370px;
+}
+.eq1{
+    border: 1px solid;
+    min-height:50px;
+    word-break: break-all;
+    width:170px!important;
 }
 .eq{
     border:solid 1px;
-    padding:3px;
-    height:50px;
-    width:65px!important;
+    min-height:50px;
+    word-break:break-all;
+    width:70px!important;
 }
+.eqQuart{
+    border:solid 1px;
+    min-height:50px;
+    word-break:break-all;
+    width:100px!important;
+}
+.eq2{
+    border:solid 1px;
+    min-height:50px;
+    word-break: break-all;
+    width:130px!important;
+}
+
 .huitiemes{
 
     margin-left:2px!important;
@@ -99,6 +151,11 @@ ul{
     margin:auto;
 }
 
+.titreEquipe{
+    width:100%;
+    text-align: center;
+}
+
 .equipe3{
     border:1px solid;
     height:50px;
@@ -113,7 +170,7 @@ ul{
 .clast{
     border-width:0px;
     border:none;
-    background-color:rgba(203,205,238,0.4);
+    background-color:rgba(203,205,238, 0.01);
 }
 form{
     background-color: rgba(203,205,238,0.4);
