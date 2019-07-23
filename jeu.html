@@ -35,7 +35,7 @@
  		</header>
 
  		<section >
- 			<h2 style="color:#000000!important; font-weight:bold;"> Qui veut gagner du planqueton ? </h2>
+ 			<h2 style="color:#000000!important; font-weight:bold;"> Qui veut gagner du plancton ? </h2>
             <form method="post" action="liste.php" name="paris">
                 <div id="premierePhase">
                     <h3>
@@ -301,69 +301,111 @@
                     <h3 style="margin-top:45px!important;">Huitièmes de finales</h3>
                     <div class="huitiemes" style="display:flex; justify-content:space-evenly">
                         <div id="Match81" class="match8">
-                            <button id="preumsPouleA" type="button" class="eq" onclick="goToNextStage41(this)"></button>
-                            <button type="button" id="deuzPouleB" class="eq" onclick="goToNextStage41(this)"></button>
+                            Match 1
+                            <div class="content">
+                                <button id="preumsPouleA" type="button" class="eq" onclick="goToNextStage41(this)"></button>
+                                <button type="button" id="deuzPouleB" class="eq" onclick="goToNextStage41(this)"></button>
+                            </div>
                         </div>
                        <div id="Match82" class="match8">
-                            <button type="button" id="preumsPouleC" class="eq" onclick="goToNextStage41(this)"></button>
-                            <button type="button" id="deuzPouleD" class="eq" onclick="goToNextStage41(this)"></button>
+                            Match 2
+                           <div class="content">
+                                <button type="button" id="preumsPouleC" class="eq" onclick="goToNextStage41(this)"></button>
+                                <button type="button" id="deuzPouleD" class="eq" onclick="goToNextStage41(this)"></button>
+                            </div>
                         </div>
                         <div id="Match83" class="match8" >
-                            <button type="button" id="deuzPouleA" class="eq" onclick="goToNextStage42(this)"></button>
-                            <button type="button" id="preumsPouleB" class="eq" onclick="goToNextStage42(this)"></button>
+                            Match 3
+                            <div class="content">
+                                <button type="button" id="deuzPouleA" class="eq" onclick="goToNextStage42(this)"></button>
+                                <button type="button" id="preumsPouleB" class="eq" onclick="goToNextStage42(this)"></button>
+                            </div>
                         </div>
                        <div id="Match84" class="match8">
-                            <button type="button" id="preumsPouleE" class="eq" onclick="goToNextStage42(this)"></button>
-                            <button type="button" id="deuzPouleF" class="eq" onclick="goToNextStage42(this)"></button>
+                           Match 4
+                           <div class="content">
+                                <button type="button" id="preumsPouleE" class="eq" onclick="goToNextStage42(this)"></button>
+                                <button type="button" id="deuzPouleF" class="eq" onclick="goToNextStage42(this)"></button>
+                            </div>
                         </div>
                         <div id="Match85" class="match8">
-                            <button type="button" id="deuzPouleC" class="eq" onclick="goToNextStage43(this)"></button>
-                            <button type="button" id="preumsPouleD" class="eq" onclick="goToNextStage43(this)" ></button>
+                            Match 5
+                            <div class="content">
+                                <button type="button" id="deuzPouleC" class="eq" onclick="goToNextStage43(this)"></button>
+                                <button type="button" id="preumsPouleD" class="eq" onclick="goToNextStage43(this)" ></button>
+                            </div>
                         </div>
                        <div id="Match86" class="match8">
-                            <button type="button" id="deuzPouleE" class="eq" onclick="goToNextStage43(this)"></button>
-                            <button type="button" id="preumsPouleF" class="eq" onclick="goToNextStage43(this)"></button>
+                           Match 6
+                           <div class="content">
+                                <button type="button" id="deuzPouleE" class="eq" onclick="goToNextStage43(this)"></button>
+                                <button type="button" id="preumsPouleF" class="eq" onclick="goToNextStage43(this)"></button>
+                            </div>
                         </div>
                         <div id="Match87" class="match8">
-                            <button type="button" id="troisieme1" class="eq" onclick="goToNextStage44(this)"></button>
-                            <button type="button" id="troisieme2" class="eq" onclick="goToNextStage44(this)"></button>
+                            Match 7
+                            <div class="content">
+                                <button type="button" id="troisieme1" class="eq" onclick="goToNextStage44(this)"></button>
+                                <button type="button" id="troisieme2" class="eq" onclick="goToNextStage44(this)"></button>
+                            </div>
                         </div>
                         <div id="Match88" class="match8">
-                            <button type="button" id="troisieme3" class="eq" onclick="goToNextStage44(this)"></button>
-                            <button type="button" id="troisieme4" class="eq" onclick="goToNextStage44(this)"></button>
+                            Match 8
+                            <div class="content">
+                                <button type="button" id="troisieme3" class="eq" onclick="goToNextStage44(this)"></button>
+                                <button type="button" id="troisieme4" class="eq" onclick="goToNextStage44(this)"></button>
+                            </div>
                         </div>
                     </div> 
                     <h3>Quarts de finales</h3>
                     <div class="quarts" style="display:flex; justify-content:space-evenly">
                         <div id="Match41" class="match4">
-                            <button type="button" id="Equipe1Match41" class="eqQuart" onclick="goToNextStage21(this)"></button>
-                            <button type="button" id="Equipe2Match41" class="eqQuart" onclick="goToNextStage21(this)"></button>
+                            Match 1
+                            <div class="content">
+                                <button type="button" id="Equipe1Match41" class="eqQuart" onclick="goToNextStage21(this)"></button>
+                                <button type="button" id="Equipe2Match41" class="eqQuart" onclick="goToNextStage21(this)"></button>
+                            </div>
                         </div>
 
                         <div id="Match42" class="match4" >
-                            <button type="button" id="Equipe1Match42" class="eqQuart"  onclick="goToNextStage21(this)"></button>
-                            <button type="button" id="Equipe2Match42" class="eqQuart"  onclick="goToNextStage21(this)"></button>
+                            Match 2
+                            <div class="content">
+                                <button type="button" id="Equipe1Match42" class="eqQuart"  onclick="goToNextStage21(this)"></button>
+                                <button type="button" id="Equipe2Match42" class="eqQuart"  onclick="goToNextStage21(this)"></button>
+                            </div>
                         </div>
 
                         <div id="Match43" class="match4">
-                            <button type="button" id="Equipe1Match43" class="eqQuart"  onclick="goToNextStage22(this)"></button>
-                            <button type="button" id="Equipe2Match43" class="eqQuart"  onclick="goToNextStage22(this)"></button>
+                            Match 3
+                            <div class="content">
+                                <button type="button" id="Equipe1Match43" class="eqQuart"  onclick="goToNextStage22(this)"></button>
+                                <button type="button" id="Equipe2Match43" class="eqQuart"  onclick="goToNextStage22(this)"></button>
+                            </div>
                         </div>
 
                         <div id="Match44" class="match4">
-                            <button type="button" id="Equipe1Match44" class="eqQuart"  onclick="goToNextStage22(this)"></button>
-                            <button type="button" id="Equipe2Match44" class="eqQuart"  onclick="goToNextStage22(this)"></button>
+                            Match 4
+                            <div class="content">
+                                <button type="button" id="Equipe1Match44" class="eqQuart"  onclick="goToNextStage22(this)"></button>
+                                <button type="button" id="Equipe2Match44" class="eqQuart"  onclick="goToNextStage22(this)"></button>
+                            </div>
                         </div>
                     </div>
                     <h3>Demi-finales</h3>
                     <div class="demi" style="display:flex; justify-content:space-evenly">
                         <div id="Match21" class="match2">
-                            <button type="button" id="Equipe1Match21" class="eq2" onclick="goToNextStagefinales(this)" ></button>
-                            <button type="button" id="Equipe2Match21" class="eq2" onclick="goToNextStagefinales(this)"></button>
+                            Match 1
+                            <div class="content">
+                                <button type="button" id="Equipe1Match21" class="eq2" onclick="goToNextStagefinales(this)" ></button>
+                                <button type="button" id="Equipe2Match21" class="eq2" onclick="goToNextStagefinales(this)"></button>
+                            </div>
                         </div>
                         <div id="Match22" class="match2">
-                            <button type="button" id="Equipe1Match22" class="eq2" onclick="goToNextStagefinales(this)"></button>
-                            <button type="button" id="Equipe2Match22" class=" eq2" onclick="goToNextStagefinales(this)"></button>
+                            Match 2
+                            <div class="content">
+                                <button type="button" id="Equipe1Match22" class="eq2" onclick="goToNextStagefinales(this)"></button>
+                                <button type="button" id="Equipe2Match22" class=" eq2" onclick="goToNextStagefinales(this)"></button>
+                            </div>
                         </div>
                     </div>
                     <h3 style="text-align:center">Petite finale</h3>

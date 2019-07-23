@@ -45,7 +45,7 @@
 		 			</p>
 		 	</section>
 	 		<section id="reste">
-	 			<form method="post" action="formulaireInscription.php">
+	 			<form method="post" if="thisForm" action="formulaireInscription.php">
 	 			<h2> A vous de jouer ! </h2>
 	 				<fieldset id="global">
 	 					<section id="top">
@@ -56,13 +56,17 @@
 				 					<div id="team">
 					 					<p id="equ">
 					 						<label for="team_name"> Nom d'équipe </label>		 					
-							 				<input type="text" name="NomEquipe" id="team_name" required="">
+							 				<input type="text" name="NomEquipe" id="team_name" required>
 							 			</p> 
 							 			<p>
 					 						<label for="couleur"> Couleur de maillot</label>		 					
-							 				<input type="text" name="CouleurEquipe" id="couleur" required="">
-							 			</p>
+							 				<input type="text" name="CouleurEquipe" id="couleur" required>
+							 			</p> 
 						 			</div>
+                                    <p>
+                                            <label for="team_description">Description de l'équipe, ses objectifs, qualités..</label>
+                                            <textarea name="descriptionEquipe" cols="40" rows="8" required> </textarea>
+                                    </p>
 				 				</fieldset>
 			 				</div>
 			 				<section id="rappel">
