@@ -438,7 +438,7 @@
                         </h4>
                     </div>
                     <h4> Si tu es sûr, oublie pas de valider !</h4>
-                    <button class="bouton btn-success btn-lg" style="display:flex;align-items:center; text-align:center;" type="submit">
+                    <button class="bouton btn-success btn-lg" style="display:flex;align-items:center; text-align:center;padding-left:20px" type="submit">
                         Valider
                     </button>
                 </div>

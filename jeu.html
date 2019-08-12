@@ -36,10 +36,12 @@
 
  		<section >
  			<h2 style="color:#000000!important; font-weight:bold;"> Qui veut gagner du plancton ? </h2>
-            <form method="post" action="liste.php" name="paris">
+            <div id="compte_a_rebours"></div>
+            <form method="post" id="form" style="display:none" action="liste.php" name="paris">
                 <div id="premierePhase">
                     <h3> Amis parieurs soyez les bienvenues. </h3> 
                     <p> Cette année le tournoi s'annonce extremement serré et le niveau aussi relevé que lors des éditions précédentes. En guise de prémices à ce week-end sportif, nous te proposons de pronostiquer les résultats du tournoi. </p>
+                    <p>Pour t'aider, tu peux trouver la description de chaque équipe dans l'onglet <a href="descriptionEquipe.html"> Description des équipes </a>
                     <p> Dans un premier temps, nous te demandons de prédire les classements de chaque poule. Il suffit de faire glisser les différentes équipes de chaque poule en cliquant dessus et de les placer comme tu l'entends. N'oublie pas d'entrer ton nom et de cliquer sur valider une fois que tu es sur de ton choix.</p>
                     <div id ="poules" class="row" >
                         <div class="pouleA">
@@ -437,14 +439,35 @@
                         </h4>
                     </div>
                     <h4> Si tu es sûr, n'oublie pas de valider !</h4>
-                    <button class="bouton btn-success btn-lg" style="display:flex;align-items:center; text-align:center;" type="submit">
+                    <button class="bouton btn-success btn-lg" style="display:flex;align-items:center; text-align:center;padding-left:20px" type="submit">
                         Valider
                     </button>
                 </div>
             </form>
  		</section>
  	</body>
-
+<script type="text/javascript">
+    function compte_a_rebours()
+    {
+        var compte_a_rebours = document.getElementById("compte_a_rebours");
+        var dateActuelle = new Date();
+        var dateEvt = new Date("Sep 28 00:00:00 2019");
+        var totalSecondes = (dateEvt - dateActuelle)/1000;
+        if(totalSecondes < 0 || totalSecondes == 0){
+            compte_a_rebours.style.display = "none";
+            document.getElementById("form").style.display="block";
+        }
+        else{
+            var jours = Math.floor(totalSecondes / (60 * 60 * 24));
+            var heures = Math.floor((totalSecondes - (jours * 60 * 60 * 24)) / (60 * 60));
+            var minutes = Math.floor((totalSecondes - ((jours * 60 * 60 * 24 + heures * 60 * 60))) / 60);
+            var secondes = Math.floor(totalSecondes - ((jours * 60 * 60 * 24 + heures * 60 * 60 + minutes * 60)));
+            compte_a_rebours.innerHTML = "Il reste " + jours + ' jours ' + heures + ' heures ' + minutes + ' minutes et ' + secondes + ' secondes.';
+        }
+        var actualisation = setTimeout("compte_a_rebours();", 1000);
+    }
+    compte_a_rebours();
+</script>
 <script>
          $( function() {
             $( "#sortable1" ).sortable();
@@ -663,6 +686,8 @@
             document.getElementById("utilisateur").textContent = nom;
             document.getElementById("fin").style.display="block";
         }
+
+        
         
     </script>
  </html>
