@@ -36,7 +36,25 @@
 
  		<section >
  			<h2 style="color:#000000!important; font-weight:bold;"> Qui veut gagner du plancton ? </h2>
-            <form method="post" action="liste.php" name="paris">
+            <div id="compte_a_rebours" style="display:flex; flex-direction:row">
+                <div id="jours" class="car">
+                    <span id="nbjours" class="nb"></span>
+                    <span class="mot">jours</span>
+                </div>
+                <div id="heures" class="car">
+                    <span id="nbheures" class="nb"></span>
+                    <span class="mot">heures</span>
+                </div>
+                <div id="minutes" class="car">
+                    <span id="nbminutes" class="nb"></span>
+                    <span class="mot">minutes</span>
+                </div>
+                <div id="secondes" class="car">
+                    <span id="nbsecondes" class="nb"></span>
+                    <span class="mot">secondes</span>
+                </div>
+            </div>
+            <form method="post" id="form" style="display:none" action="liste.php" name="paris">
                 <div id="premierePhase">
                     <h3>
                         Qui sera l'équipe gagnante du Fem's édition 2020 ?
@@ -445,6 +463,32 @@
             </form>
  		</section>
  	</body>
+
+<script type="text/javascript">
+    function compte_a_rebours()
+    {
+        var compte_a_rebours = document.getElementById("compte_a_rebours");
+        var dateActuelle = new Date();
+        var dateEvt = new Date("Sep 28 00:00:00 2019");
+        var totalSecondes = (dateEvt - dateActuelle)/1000;
+        if(totalSecondes < 0 || totalSecondes == 0){
+            compte_a_rebours.style.display = "none";
+            document.getElementById("form").style.display="block";
+        }
+        else{
+            var jours = Math.floor(totalSecondes / (60 * 60 * 24));
+            var heures = Math.floor((totalSecondes - (jours * 60 * 60 * 24)) / (60 * 60));
+            var minutes = Math.floor((totalSecondes - ((jours * 60 * 60 * 24 + heures * 60 * 60))) / 60);
+            var secondes = Math.floor(totalSecondes - ((jours * 60 * 60 * 24 + heures * 60 * 60 + minutes * 60)));
+            document.getElementById("nbjours").innerHTML = jours;
+            document.getElementById("nbheures").innerHTML = heures;
+            document.getElementById("nbminutes").innerHTML = minutes;
+            document.getElementById("nbsecondes").innerHTML = secondes;
+        }
+        var actualisation = setTimeout("compte_a_rebours();", 1000);
+    }
+    compte_a_rebours();
+</script>
 
 <script>
          $( function() {

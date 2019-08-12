@@ -36,7 +36,24 @@
 
  		<section >
  			<h2 style="color:#000000!important; font-weight:bold;"> Qui veut gagner du plancton ? </h2>
-            <div id="compte_a_rebours"></div>
+            <div id="compte_a_rebours" style="display:flex; flex-direction:row">
+                <div id="jours" class="car">
+                    <span id="nbjours" class="nb"></span>
+                    <span class="mot">jours</span>
+                </div>
+                <div id="heures" class="car">
+                    <span id="nbheures" class="nb"></span>
+                    <span class="mot">heures</span>
+                </div>
+                <div id="minutes" class="car">
+                    <span id="nbminutes" class="nb"></span>
+                    <span class="mot">minutes</span>
+                </div>
+                <div id="secondes" class="car">
+                    <span id="nbsecondes" class="nb"></span>
+                    <span class="mot">secondes</span>
+                </div>
+            </div>
             <form method="post" id="form" style="display:none" action="liste.php" name="paris">
                 <div id="premierePhase">
                     <h3> Amis parieurs soyez les bienvenues. </h3> 
@@ -462,7 +479,10 @@
             var heures = Math.floor((totalSecondes - (jours * 60 * 60 * 24)) / (60 * 60));
             var minutes = Math.floor((totalSecondes - ((jours * 60 * 60 * 24 + heures * 60 * 60))) / 60);
             var secondes = Math.floor(totalSecondes - ((jours * 60 * 60 * 24 + heures * 60 * 60 + minutes * 60)));
-            compte_a_rebours.innerHTML = "Il reste " + jours + ' jours ' + heures + ' heures ' + minutes + ' minutes et ' + secondes + ' secondes.';
+            document.getElementById("nbjours").innerHTML = jours;
+            document.getElementById("nbheures").innerHTML = heures;
+            document.getElementById("nbminutes").innerHTML = minutes;
+            document.getElementById("nbsecondes").innerHTML = secondes;
         }
         var actualisation = setTimeout("compte_a_rebours();", 1000);
     }
