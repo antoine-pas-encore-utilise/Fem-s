@@ -1,0 +1,66 @@
+section{
+    padding:20px;
+}
+
+h2{
+    color:black!important;
+    margin-bottom:20px;
+}
+
+.titrePoule{
+    margin-top:20px;
+    margin-bottom:40px;
+    font-size:30pt;
+    color:black;
+    font-weight:bold;
+    font-family: Permanent Marker,Cinzel,Great Vibes,'rubik', arial, serif;
+    
+}
+
+.eq{
+    width:550px;
+    text-align: justify;
+    background-color:rgba(203,205,238,0.4); 
+    padding:20px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+.pouleHorizon{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-around
+}
+
+.poule{
+    margin-top:20px;
+    border-radius:10px;
+    padding:20px;
+    border:solid black;
+    height:350px;
+    text-align:center;
+}
+
+
+
+.equipeA{
+    width:500px;
+    align-items: flex-start;
+    text-align: justify;
+    background-color:rgba(203,205,238,0.4); 
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+    float:left;     
+}
+
+.equipeB{
+    background-color:rgba(203,205,238,0.4); 
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+    float:right;
+    width:500px; 
+    align-content: flex-end;
+    text-align:justify;
+}
