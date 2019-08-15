@@ -101,6 +101,10 @@ footer
 	padding: 5px;
 }
 
+.listeDepart{
+    text-align:justify;
+}
+
 html {
   height: 100%;
 }
