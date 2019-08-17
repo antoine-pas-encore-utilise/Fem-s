@@ -14,7 +14,12 @@ ul
 }
 
 #vid{
-	margin-left:450px!important;
+	display:flex;
+}
+
+iframe{
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
