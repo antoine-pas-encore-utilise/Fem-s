@@ -1,9 +1,29 @@
 section{
     display:flex;
+	flex-direction: column;
+	background-color: rgba(203,205,238,0.5);
+	margin-top: 10px;
 }
 
 img{
     margin-top:20px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 20px;
+}
+
+p
+{
+	text-align: center;
+}
+
+span#gay
+{
+	color: rgb(155,0,134);
+	font-weight: bold;
+}
+
+span.us
+{
+	font-style: italic;
 }

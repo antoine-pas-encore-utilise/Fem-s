@@ -65,3 +65,8 @@ ul
 {
 	list-style-position: inside;
 }
+
+span.bit
+{
+	color: rgb(205,0,134);
+}

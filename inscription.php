@@ -64,7 +64,7 @@
 							 			</p> 
 						 			</div>
                                     <p>
-                                            <label for="team_description" style="vertical-align: top">Description de l'équipe, ses objectifs, qualités..</label>
+                                            <label for="team_description" style="vertical-align: top;">Description de l'équipe, ses objectifs, qualités..</label>
                                             <textarea name="descriptionEquipe" cols="40" rows="8" required> </textarea>
                                     </p>
 				 				</fieldset>

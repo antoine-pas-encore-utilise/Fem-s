@@ -18,12 +18,13 @@ h2{
 }
 
 .eq{
-    width:550px;
+    width:650px;
     text-align: justify;
     background-color:rgba(203,205,238,0.4); 
     padding:20px;
     border-radius:10px;
     margin-top:15px;
+    font-size: 1.3em;
 }
 
 .pouleHorizon{

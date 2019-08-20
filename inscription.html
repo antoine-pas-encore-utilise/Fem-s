@@ -36,7 +36,7 @@
 			 			<li> 1 fille/garçon minimum par équipe </li>
 			 			<li> Obligation d'être déguisé pendant le tournoi. Ce déguisement doit être directement lié à votre nom d'équipe. </li>
 			 			<li> Les tailles de maillot disponibles sont les suivantes : S, M, L, XL</li>
-			 			<li> Vous pouvez choisir votre numéro de maillot. Ce dernier doit être compris dans l'intervalle [0,10]. </li>
+			 			<li> Vous pouvez choisir votre numéro de maillot. Ce dernier doit être un entier naturel compris dans l'intervalle [0,10]. </li>
 			 		</ul>
 			 		<p id="ps">
 		 			PS1: Chaque joueur de la même équipe peut avoir le même numéro de maillot, ou pas. <br>
@@ -56,16 +56,18 @@
 				 					<div id="team">
 					 					<p id="equ">
 					 						<label for="team_name"> Nom d'équipe </label>		 					
-							 				<input type="text" name="NomEquipe" id="team_name" required="">
+							 				<input type="text" name="NomEquipe" id="team_name" required="" width="10" placeholder="Ex:Les fantomes de la cité">
 							 			</p> 
 							 			<p>
 					 						<label for="couleur"> Couleur de maillot</label>		 					
-							 				<input type="text" name="CouleurEquipe" id="couleur" required="">
+							 				<input type="text" name="CouleurEquipe" id="couleur" required="" placeholder="Ex: 01">
+							 			</p>
+							 			<p> <a href="Images/photo_maillots_2018.jpg" id="maillots" target="_blank"> Clique ici pour un aperçu des couleurs </a>
 							 			</p>
 						 			</div>
-                                     <p>
-                                            <label for="team_description" style="vertical-align: top">Description de l'équipe, ses objectifs, qualités..</label>
-                                            <textarea name="descriptionEquipe" cols="40" rows="8" required> </textarea>
+                                    <p>
+                                        <label for="team_description" style="vertical-align: top;">Description de l'équipe, ses objectifs, qualités..</label>
+                                        <textarea name="descriptionEquipe" cols="40" rows="8" required> </textarea>
                                     </p>
 				 				</fieldset>
 			 				</div>

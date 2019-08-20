@@ -124,3 +124,9 @@ ul
 {
 	list-style-position: inside;
 }
+
+#maillots
+{
+	margin-left: 10px;
+	font-size: 0.8em;
+}
